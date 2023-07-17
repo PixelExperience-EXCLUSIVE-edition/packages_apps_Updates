@@ -32,7 +32,7 @@ public final class Constants {
     static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
     static final String OTA_URL = "https://raw.githubusercontent.com/userariii/android-OTA/thirteen/pixelexperience/tiramisu/builds/%s.json";
     static final String OTA_CI_URL = "https://raw.githubusercontent.com/userariii/android-OTA/thirteen/pixelexperience/tiramisu/builds/%s.json";
-    static final String MAINTAINER_URL = "https://github.com/%s";
+    static final String MAINTAINER_URL = "https://get.pixelexperience.org/team/userariii";
     static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/userariii/android-OTA/thirteen/pixelexperience/tiramisu/changelogs/%s/%s.txt";
     static final String EXPORT_PATH = "PixelExperience-Updates/";
 }
