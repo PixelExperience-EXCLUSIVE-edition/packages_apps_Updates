@@ -158,7 +158,7 @@ public class Utils {
 
     public static String getServerURL() {
         String buildType = getBuildType();
-        if (buildType.equals("COMMUNITY-edition")){
+        if (buildType.equals("EXCLUSIVE-edition")){
             return String.format(Constants.OTA_URL, SystemProperties.get(Constants.PROP_DEVICE), SystemProperties.get(Constants.PROP_BUILD_VERSION));
         }else{
             return String.format(Constants.OTA_CI_URL, SystemProperties.get(Constants.PROP_DEVICE), SystemProperties.get(Constants.PROP_BUILD_VERSION));
